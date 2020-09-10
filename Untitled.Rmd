@@ -1,0 +1,20 @@
+---
+title: "Entrance_Survey"
+output: html_document
+---
+
+option + command + i 
+```{r}
+DF <- read.csv("hudk4050-entrance-survey.csv", header = TRUE)
+
+mode(DF$program)
+
+is.numeric(DF$program)
+```
+command + enter 
+
+# Simple math
+```{r}
+7 + 2
+```
+
